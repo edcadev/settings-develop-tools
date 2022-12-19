@@ -1,0 +1,163 @@
+{
+  "workbench.startupEditor": "none",
+  "editor.formatOnType": true,
+  "editor.tabSize": 2,
+  "workbench.preferredDarkColorTheme": "One Dark Pro",
+  "oneDarkPro.editorTheme": "One Dark Pro Flat",
+  "oneDarkPro.bold": true,
+  "oneDarkPro.vivid": true,
+  "workbench.iconTheme": "symbols",
+  "workbench.productIconTheme": "fluent-icons",
+  "editor.stickyScroll.enabled": true,
+
+  // Controla la familia de fuente
+  "editor.fontFamily": "'Cascadia Code PL', 'CaskaydiaCove Nerd Font', 'Cascadia Code PL', Monaco, Consolas, 'Courier New', monospace",
+
+  // Configura las ligaduras o características de la fuente
+  "editor.fontLigatures": true,
+
+  // Controla la columna de envoltura del editor cuando "editor.wordWrap" es "wordWrapColumn o "bounded"
+  "editor.wordWrapColumn": 80,
+
+  // Controla cómo deben envolverse las líneas
+  // - off: Las líneas nunca se envolverán
+  // - on: Las líneas se ajustarán al ancho de la ventana
+  // - wordWrapColumn: Las líneas se ajustarán "editor.wordWrapColumn"
+  // - bounded: Las líneas se ajustarán al mínimo de la ventana y de "editor.wordWrapColumn"
+  "editor.wordWrap": "bounded",
+
+  // Formatear un archivo al guardarlo
+  "editor.formatOnSave": true,
+  // Define un formateador por defecto que tiene prioridad sobre todos los demás ajustes del formateador. En este caso es Prettier
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  // Habilita las abreviaturas de Emmet en los lenguajes no soportados por defecto. Aquí se añade un mapeo entre el lenguaje y el lenguaje soportado por Emmet
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact",
+    "jsx-sublime-babel-tags": "javascriptreact"
+    // "postcss": "css"
+  },
+
+  // Cuando se activa, las abreviaturas de Emmet se expanden al pulsar TAB
+  "emmet.triggerExpansionOnTab": true,
+
+  // Deshabilitamos el formateo de código al guardar cambios para archivos .JS y .JSX esto se realizará por ESLint
+  "[javascript]": {
+    "editor.formatOnSave": false,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascriptreact]": {
+    "editor.formatOnSave": false,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  // Mostrar el icono de ESLint en la barra de herramientas inferior
+  "eslint.alwaysShowStatus": true,
+
+  // Llamamos al complemento de ESLint para que se ejecute después de guardar cambios
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true
+  },
+
+  // Establece a Git Bash como la terminal por defecto de VSCode
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+
+  "colorize.languages": ["css", "scss", "javascript", "jsx"],
+
+  // Para usar Path Intellisense en lugar del autocompletado predeterminado
+  "typescript.suggest.paths": false,
+  "javascript.suggest.paths": false,
+
+  // Para usar Code Spell Checker EN y ES
+  "cSpell.language": "en,es",
+  "cSpell.userWords": [
+    "activitusbar",
+    "airbnb",
+    "aportante",
+    "aportantes",
+    "autocompletado",
+    "autoguardado",
+    "cabanillas",
+    "cajamarca",
+    "cascadia",
+    "chuquilin",
+    "clsx",
+    "codicon",
+    "contáctanos",
+    "ecma",
+    "edca",
+    "edcadev",
+    "esbenp",
+    "favicons",
+    "fazt",
+    "fontsource",
+    "formateador",
+    "frutaliss",
+    "globalpay",
+    "globalstyles",
+    "midudev",
+    "nextjs",
+    "nextui",
+    "noopener",
+    "noreferrer",
+    "notranslate",
+    "parens",
+    "pokemon",
+    "redhat",
+    "svgr",
+    "swiper",
+    "tailwindcss",
+    "tercerizadora",
+    "unsplash",
+    "uuidv",
+    "xkcd"
+  ],
+  "editor.accessibilitySupport": "off",
+  "svg.preview.mode": "svg",
+  "editor.linkedEditing": true,
+  "activitusbar.priority": -99999,
+  "activitusbar.alignment": "Right",
+  "activitusbar.views": [
+    {
+      "name": "explorer",
+      "codicon": "explorer-view-icon"
+    },
+    {
+      "name": "search",
+      "codicon": "search-view-icon"
+    },
+    {
+      "name": "scm",
+      "codicon": "source-control-view-icon"
+    },
+    {
+      "name": "terminal",
+      "codicon": "terminal-bash"
+    },
+    {
+      "name": "debug",
+      "codicon": "run-view-icon"
+    },
+    {
+      "codicon": "kebab-vertical"
+    },
+    {
+      "name": "command.workbench.action.reloadWindow",
+      "codicon": "refresh"
+    },
+    {
+      "name": "extensions",
+      "codicon": "extensions-view-icon"
+    },
+    {
+      "name": "settings",
+      "codicon": "gear"
+    }
+  ],
+  "workbench.sideBar.location": "right",
+  "workbench.colorTheme": "One Dark Pro Flat",
+  "window.menuBarVisibility": "compact",
+  "workbench.activityBar.visible": false
+}
