@@ -11,13 +11,13 @@
   "editor.stickyScroll.enabled": true,
 
   // Controla la familia de fuente
-  "editor.fontFamily": "'Cascadia Code PL', 'CaskaydiaCove Nerd Font', 'Cascadia Code PL', Monaco, Consolas, 'Courier New', monospace",
+  "editor.fontFamily": "'Cascadia Code PL', 'JetBrainsMono Nerd Font', 'CaskaydiaCove Nerd Font', 'Cascadia Code PL', Monaco, Consolas, 'Courier New', monospace",
 
   // Configura las ligaduras o características de la fuente
   "editor.fontLigatures": true,
 
   // Controla la columna de envoltura del editor cuando "editor.wordWrap" es "wordWrapColumn o "bounded"
-  "editor.wordWrapColumn": 80,
+  "editor.wordWrapColumn": 100,
 
   // Controla cómo deben envolverse las líneas
   // - off: Las líneas nunca se envolverán
@@ -82,9 +82,11 @@
     "cabanillas",
     "cajamarca",
     "cascadia",
+    "Caskaydia",
     "chuquilin",
     "clsx",
     "codicon",
+    "commandline",
     "contáctanos",
     "ecma",
     "edca",
@@ -103,6 +105,7 @@
     "noopener",
     "noreferrer",
     "notranslate",
+    "onum",
     "parens",
     "pokemon",
     "redhat",
@@ -112,52 +115,25 @@
     "tercerizadora",
     "unsplash",
     "uuidv",
+    "xcad",
     "xkcd"
   ],
   "editor.accessibilitySupport": "off",
   "svg.preview.mode": "svg",
   "editor.linkedEditing": true,
-  "activitusbar.priority": -99999,
-  "activitusbar.alignment": "Right",
-  "activitusbar.views": [
-    {
-      "name": "explorer",
-      "codicon": "explorer-view-icon"
-    },
-    {
-      "name": "search",
-      "codicon": "search-view-icon"
-    },
-    {
-      "name": "scm",
-      "codicon": "source-control-view-icon"
-    },
-    {
-      "name": "terminal",
-      "codicon": "terminal-bash"
-    },
-    {
-      "name": "debug",
-      "codicon": "run-view-icon"
-    },
-    {
-      "codicon": "kebab-vertical"
-    },
-    {
-      "name": "command.workbench.action.reloadWindow",
-      "codicon": "refresh"
-    },
-    {
-      "name": "extensions",
-      "codicon": "extensions-view-icon"
-    },
-    {
-      "name": "settings",
-      "codicon": "gear"
-    }
-  ],
   "workbench.sideBar.location": "right",
-  "workbench.colorTheme": "One Dark Pro Flat",
-  "window.menuBarVisibility": "compact",
-  "workbench.activityBar.visible": false
+  "workbench.colorTheme": "One Dark Pro",
+  "window.commandCenter": true,
+  "editor.renderWhitespace": "none",
+  "breadcrumbs.enabled": false,
+  "editor.minimap.autohide": true,
+  "editor.minimap.maxColumn": 50,
+  "editor.fontWeight": "400",
+  "editor.cursorBlinking": "expand",
+  "editor.cursorSmoothCaretAnimation": true,
+  "editor.guides.bracketPairs": true,
+  "prettier.singleQuote": true,
+  "prettier.trailingComma": "all",
+  "files.eol": "\n",
+  "window.menuBarVisibility": "compact"
 }

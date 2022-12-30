@@ -3,19 +3,19 @@
   "$schema": "https://aka.ms/terminal-profiles-schema",
   "actions": [
     {
-      "command": "find",
-      "keys": "ctrl+shift+f"
+      "command": {
+        "action": "copy",
+        "singleLine": false
+      },
+      "keys": "ctrl+c"
     },
     {
       "command": "paste",
       "keys": "ctrl+v"
     },
     {
-      "command": {
-        "action": "copy",
-        "singleLine": false
-      },
-      "keys": "ctrl+c"
+      "command": "find",
+      "keys": "ctrl+shift+f"
     },
     {
       "command": {
@@ -33,17 +33,17 @@
   "copyFormatting": "none",
   "copyOnSelect": false,
   "defaultProfile": "{2ece5bfe-50ed-5f3a-ab87-5cd4baafed2b}",
-  "firstWindowPreference": "defaultProfile",
+  "firstWindowPreference": "persistedWindowLayout",
   "focusFollowMouse": true,
   "initialCols": 100,
-  "initialRows": 30,
+  "initialRows": 25,
   "profiles": {
     "defaults": {
       "closeOnExit": "graceful",
-      "colorScheme": "xcad",
+      "colorScheme": "One Half Dark",
       "cursorShape": "bar",
       "font": {
-        "face": "CaskaydiaCove NF",
+        "face": "JetBrainsMono Nerd Font",
         "features": {
           "onum": 1,
           "ss01": 1,
@@ -53,7 +53,8 @@
           "ss05": 1,
           "ss06": 1,
           "zero": 1
-        }
+        },
+        "size": 10
       },
       "opacity": 90,
       "useAcrylic": true
@@ -132,7 +133,6 @@
       "white": "#FAFAFA",
       "yellow": "#C18301"
     },
-
     {
       "background": "#1A1A1A",
       "black": "#121212",
